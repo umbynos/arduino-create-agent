@@ -10,8 +10,8 @@ jobs:
         with:
           stale-issue-message: 'This issue has been marked as stale because it has been open 14 days with no activity. Remove stale label or comment, otherwise it will be closed in 7 days '
           close-issue-message: 'This issue has been closed becasue has been stale for 7 days. If you think this issue deserves some attention feel free to reopen it'
-          days-before-stale: 14
-          days-before-close: 7
+          days-before-stale: 1
+          days-before-close: 1
           days-before-pr-close: -1 // never close PR
           only-labels: waiting for feedback // only issues marked with this label will be affected
-          debug-only: true
+          debug-only: false
